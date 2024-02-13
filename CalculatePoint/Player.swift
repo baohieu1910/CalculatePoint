@@ -7,9 +7,21 @@
 
 import Foundation
 
-struct Player: Codable, Identifiable, Hashable {
+struct Player: Codable, Identifiable, Hashable, Equatable {
     var id = UUID()
     var name: String
-    var points: [Double]
+    var points: [Int]
+    var recentPoint: Int?
+}
+
+// Public functions
+extension Player {
+    func totalPoint() -> Int {
+        return points.reduce(0, +)
+    }
+}
+
+// Private functions
+private extension Player {
     
 }

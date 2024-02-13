@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		A41F17E12B793D6F009F34E1 /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F17E02B793D6F009F34E1 /* PlayersViewModel.swift */; };
 		A41F17E32B7941F7009F34E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F17E22B7941F7009F34E1 /* HomeView.swift */; };
+		A41F17E52B7A6827009F34E1 /* PlayerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F17E42B7A6827009F34E1 /* PlayerRowView.swift */; };
+		A41F17E72B7A73AB009F34E1 /* AddPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F17E62B7A73AA009F34E1 /* AddPlayerView.swift */; };
+		A41F17E92B7A8833009F34E1 /* GameBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F17E82B7A8833009F34E1 /* GameBarView.swift */; };
+		A41F17EB2B7AA257009F34E1 /* AddPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F17EA2B7AA257009F34E1 /* AddPointView.swift */; };
+		A46BD2522B7B400700B2D172 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BD2512B7B400700B2D172 /* CustomKeyboard.swift */; };
 		A4727F472B79234100EB59DB /* CalculatePointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4727F462B79234100EB59DB /* CalculatePointApp.swift */; };
 		A4727F492B79234100EB59DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4727F482B79234100EB59DB /* ContentView.swift */; };
 		A4727F4B2B79234300EB59DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4727F4A2B79234300EB59DB /* Assets.xcassets */; };
@@ -16,9 +21,27 @@
 		A4727F552B793B3600EB59DB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4727F542B793B3500EB59DB /* Player.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A46BD24D2B7B1CC800B2D172 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A41F17E02B793D6F009F34E1 /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
 		A41F17E22B7941F7009F34E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A41F17E42B7A6827009F34E1 /* PlayerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRowView.swift; sourceTree = "<group>"; };
+		A41F17E62B7A73AA009F34E1 /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
+		A41F17E82B7A8833009F34E1 /* GameBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBarView.swift; sourceTree = "<group>"; };
+		A41F17EA2B7AA257009F34E1 /* AddPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPointView.swift; sourceTree = "<group>"; };
+		A46BD2512B7B400700B2D172 /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
 		A4727F432B79234100EB59DB /* CalculatePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4727F462B79234100EB59DB /* CalculatePointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePointApp.swift; sourceTree = "<group>"; };
 		A4727F482B79234100EB59DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,12 +80,17 @@
 		A4727F452B79234100EB59DB /* CalculatePoint */ = {
 			isa = PBXGroup;
 			children = (
+				A4727F4A2B79234300EB59DB /* Assets.xcassets */,
+				A41F17E62B7A73AA009F34E1 /* AddPlayerView.swift */,
 				A4727F462B79234100EB59DB /* CalculatePointApp.swift */,
 				A4727F482B79234100EB59DB /* ContentView.swift */,
-				A41F17E02B793D6F009F34E1 /* PlayersViewModel.swift */,
+				A41F17E82B7A8833009F34E1 /* GameBarView.swift */,
 				A41F17E22B7941F7009F34E1 /* HomeView.swift */,
+				A41F17EA2B7AA257009F34E1 /* AddPointView.swift */,
+				A46BD2512B7B400700B2D172 /* CustomKeyboard.swift */,
 				A4727F542B793B3500EB59DB /* Player.swift */,
-				A4727F4A2B79234300EB59DB /* Assets.xcassets */,
+				A41F17E42B7A6827009F34E1 /* PlayerRowView.swift */,
+				A41F17E02B793D6F009F34E1 /* PlayersViewModel.swift */,
 				A4727F4C2B79234300EB59DB /* Preview Content */,
 			);
 			path = CalculatePoint;
@@ -86,6 +114,7 @@
 				A4727F3F2B79234100EB59DB /* Sources */,
 				A4727F402B79234100EB59DB /* Frameworks */,
 				A4727F412B79234100EB59DB /* Resources */,
+				A46BD24D2B7B1CC800B2D172 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -147,9 +176,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4727F492B79234100EB59DB /* ContentView.swift in Sources */,
+				A46BD2522B7B400700B2D172 /* CustomKeyboard.swift in Sources */,
+				A41F17E72B7A73AB009F34E1 /* AddPlayerView.swift in Sources */,
 				A41F17E12B793D6F009F34E1 /* PlayersViewModel.swift in Sources */,
+				A41F17E52B7A6827009F34E1 /* PlayerRowView.swift in Sources */,
 				A4727F552B793B3600EB59DB /* Player.swift in Sources */,
 				A41F17E32B7941F7009F34E1 /* HomeView.swift in Sources */,
+				A41F17E92B7A8833009F34E1 /* GameBarView.swift in Sources */,
+				A41F17EB2B7AA257009F34E1 /* AddPointView.swift in Sources */,
 				A4727F472B79234100EB59DB /* CalculatePointApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
